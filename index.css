@@ -28,11 +28,10 @@
 }
 line {
     stroke: #9c27b0;
-    stroke-dasharray: 100;
-    stroke-dashoffset: 100;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
 }
 .magic line {
     stroke-dashoffset: 0;
-    stroke-dasharray:  0;
-   /*  transition: 300ms stroke-dasharray 350ms ease-in; */
+    transition: 2500ms 150ms stroke-dashoffset ease; 
 }
